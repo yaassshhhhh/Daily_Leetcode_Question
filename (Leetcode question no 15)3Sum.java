@@ -32,7 +32,7 @@ class Solution {
                     right--;
 
                     // Duplicate left skip
-                    while (left < right && nums[left] == nums[left - 1]) {
+                    while (left < right && nums [left] == nums[left - 1]) {
                         left++;
                     }
 
