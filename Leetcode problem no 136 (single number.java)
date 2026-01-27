@@ -4,6 +4,6 @@ class Solution {
         for(int val : nums){
             ans = ans ^ val;
         }
-        return ans;
+        return ans ;
     }
 }
