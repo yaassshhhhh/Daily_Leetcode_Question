@@ -1,6 +1,7 @@
 class Solution {
 
-    public void reverseString(char[] s) {
+    public void reverseString(char[] s) 
+    {
         int first = 0, last = s.length - 1;
 
         while (first < last) {
